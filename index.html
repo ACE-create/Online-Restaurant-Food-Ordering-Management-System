@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Restaurant Management System</h1>
+    </header>
+
+    <main>
+        <section id="customer-login">
+            <h2>Customer Login</h2>
+            <form action="/customer-login" method="post">
+                <label for="customer-username">Username:</label>
+                <input type="text" id="customer-username" name="customer-username" required>
+
+                <label for="customer-password">Password:</label>
+                <input type="password" id="customer-password" name="customer-password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </section>
+
+        <section id="branch-manager-login">
+            <h2>Branch Manager Login</h2>
+            <form action="/branch-manager-login" method="post">
+                <label for="manager-username">Username:</label>
+                <input type="text" id="manager-username" name="manager-username" required>
+
+                <label for="manager-password">Password:</label>
+                <input type="password" id="manager-password" name="manager-password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+
+</body>
+
+</html>
